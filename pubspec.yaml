@@ -1,0 +1,17 @@
+name: collections
+description: A simple Span API client
+version: 1.0.0
+homepage: https://www.lab5e.com/
+
+environment:
+  sdk: '>=2.18.7 <3.0.0'
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
+dependencies:
+  spanapi:
+    git: https://github.com/lab5e/dart-spanapi
